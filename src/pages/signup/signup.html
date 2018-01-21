@@ -1,0 +1,44 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Sign Up KIDDOS</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+    <form (submit)="setPage()">
+        <ion-list>
+            <ion-item>
+            <ion-label color="primary" stacked> First Name </ion-label>
+            <ion-input type="firstName" placeholder="Enter here."></ion-input>
+            </ion-item>
+
+            <ion-item>
+            <ion-label color="primary" stacked> Last Name </ion-label>
+            <ion-input type="lastName" placeholder="Enter here."></ion-input>
+            </ion-item>
+
+            <ion-item>
+            <ion-label color="primary" stacked> Username: </ion-label>
+            <ion-input type="username" placeholder="Hide your identity! "></ion-input>
+            </ion-item>
+
+            <ion-item>
+            <ion-label color="primary" stacked> Email </ion-label>
+            <ion-input type="email" placeholder="Email, please!"></ion-input>
+            </ion-item>
+
+            <ion-item>
+            <ion-label color="primary" stacked> Password </ion-label>
+            <ion-input type="password" placeholder="Password also!"></ion-input>
+            </ion-item>
+            <br>
+
+            <div style="text-align:center"><button ion-button round> Submit </button></div>
+        </ion-list>
+    </form>
+</ion-content>
+
+

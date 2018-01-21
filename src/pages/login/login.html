@@ -1,0 +1,29 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>SIGNUP</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+    <form (submit)="setPage()">
+
+        <ion-list>
+
+            <ion-item>
+                <ion-label color="primary" stacked> Username: </ion-label>
+                <ion-input type="username" placeholder="Hide your identity! "></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label color="primary" stacked> Password </ion-label>
+                <ion-input type="password" placeholder="Password also!"></ion-input>
+            </ion-item>
+            <br>
+
+            <div style="text-align:center"><button ion-button round> Sign-in </button></div>
+        </ion-list>
+    </form>
+</ion-content>
