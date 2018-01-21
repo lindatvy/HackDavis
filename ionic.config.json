@@ -1,0 +1,8 @@
+{
+  "name": "HackDavis",
+  "app_id": "44fec98d",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
